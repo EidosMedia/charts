@@ -3,11 +3,21 @@ entries:
   cert-manager-crd:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-04-14T13:30:21.267946+02:00
+    created: 2019-04-14T13:32:12.403839+02:00
     description: A Helm chart to deploy cert-manager custom resource definitions
     digest: e095de2bfd4c01d9e093fee12681cf511dc41777279be6965fce081c7e73d86c
     name: cert-manager-crd
     urls:
     - https://eidosmedia.github.io/charts/cert-manager-crd-1.tgz
     version: "1"
-generated: 2019-04-14T13:30:21.266294+02:00
+  cert-manager-issuer:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-04-14T13:32:12.40418+02:00
+    description: A Helm chart to deploy a cert-manager cluster-issuer
+    digest: e1d4622f06076fa791f3b1548cc3356414f167bfc850c4b6ab65300a7de9643a
+    name: cert-manager-issuer
+    urls:
+    - https://eidosmedia.github.io/charts/cert-manager-issuer-1.tgz
+    version: "1"
+generated: 2019-04-14T13:32:12.402417+02:00
